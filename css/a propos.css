@@ -1,0 +1,99 @@
+.produit1 {
+    border-radius: 40px;
+    box-shadow: 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 20%;
+    background-color: white;
+    height: 300px;
+}
+
+.produit2 {
+    border-radius: 40px;
+    box-shadow: 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 20%;
+    background-color: white;
+    height: 300px;
+}
+
+.produit3 {
+    border-radius: 40px;
+    box-shadow: 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 20%;
+    background-color: white;
+    height: 300px;
+}
+
+.produit4 {
+    border-radius: 40px;
+    box-shadow: 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 20%;
+    background-color: white;
+    height: 300px;
+
+}
+
+.produits {
+    display: inline-flex;
+    justify-content: center;
+    gap: 5%;
+
+}
+
+.icone1 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.icone2 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.icone3 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.icone4 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.titre1 {
+    font-size: 30px;
+    color: aqua;
+}
+
+.titre2 {
+    font-size: 30px;
+    color: aqua;
+}
+
+.titre3 {
+    font-size: 30px;
+    color: aqua;
+}
+
+.titre4 {
+    font-size: 30px;
+    color: aqua;
+}
+
+.texte3 {
+    margin-left: 10px;
+}
+
+body {
+    background-color: whitesmoke;
+}
