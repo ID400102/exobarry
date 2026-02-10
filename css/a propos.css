@@ -1,4 +1,4 @@
-.produit1 {
+.d1 {
     border-radius: 40px;
     box-shadow: 40px;
     text-align: center;
@@ -9,7 +9,7 @@
     height: 300px;
 }
 
-.produit2 {
+.d2 {
     border-radius: 40px;
     box-shadow: 40px;
     text-align: center;
@@ -20,7 +20,7 @@
     height: 300px;
 }
 
-.produit3 {
+.d3 {
     border-radius: 40px;
     box-shadow: 40px;
     text-align: center;
@@ -31,7 +31,7 @@
     height: 300px;
 }
 
-.produit4 {
+.d4 {
     border-radius: 40px;
     box-shadow: 40px;
     text-align: center;
@@ -43,7 +43,7 @@
 
 }
 
-.produits {
+.d {
     display: inline-flex;
     justify-content: center;
     gap: 5%;
