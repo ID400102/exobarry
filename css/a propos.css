@@ -1,3 +1,38 @@
+header{
+    background-color: rgb(27, 173, 149);
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+header,p{
+    font-size: 20px;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+img{
+    width: 50%;
+    height: 50%;
+    margin: 80px;
+    }
+div1{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+h2{
+    font-size: 36px;
+    color: #4ecdc4;
+}
+div2{
+    font-size: 18px;
+    line-height: 1.8;
+}
+div2{
+    align-content: center;
+
 .d1 {
     border-radius: 40px;
     box-shadow: 40px;
