@@ -52,6 +52,26 @@
     margin-top: 20px;
 }
 
+.d1:hover {
+    transform: translateY(30px);
+    transition: ease-in 2.3s;
+}
+
+.d2:hover {
+    transform: translateY(30px);
+    transition: ease-in 2.3s;
+}
+
+.d3:hover {
+    transform: translateY(30px);
+    transition: ease-in 2.3s;
+}
+
+.d4:hover {
+    transform: translateY(30px);
+    transition: ease-in 2.3s;
+}
+
 .icone1 {
     padding-top: 10px;
     font-size: 50px;
