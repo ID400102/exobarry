@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 
-body {
+.file {
      background: linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url(../images/image.png) center / cover;
-    
+      height: 550px;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
    background-color:  rgba(86, 114, 241, 0.8)rgba(118, 75, 162, 0.8);
     color: white;
     
-    height: 100px;
+  
 }
 
 h1 {
@@ -30,7 +30,7 @@ h1 {
    
     padding: 5px;
     margin-right: 40px; /* Espacement à droite de la navbar */
-    background-color: 1,  #764ba2 ;
+    background: linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8));
    
  
 }
