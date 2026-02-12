@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+/* HEADER */
+header {
+  background: #6a5acd;
+  color: white;
+  padding: 27px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a.active {
+  background: #7b6cf6;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+/* BANNER */
+.banner {
+  background: linear-gradient(90deg, #ff6a6a, #f6d365);
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+/* MAIN */
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+/* ARTICLES */
+.articles {
+  flex: 2;
+}
+
+.item {
+  background: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.item:hover {
+  border-color: #6a5acd;
+}
+
+/* CLICK (actif) */
+.item.active {
+  border-color: #6a5acd;
+  box-shadow: 0 0 0 2px rgba(106,90,205,0.2);
+}
+
+.item img {
+  border-radius: 8px;
+}
+
+.info {
+  flex: 1;
+}
+
+.qty button {
+  background: #6a5acd;
+  border: none;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.price {
+  font-weight: bold;
+  color: #6a5acd;
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+/* SUMMARY */
+.summary {
+  flex: 1;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.order {
+  width: 100%;
+  padding: 12px;
+  background: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.continue {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: none;
+  border: 2px solid #6a5acd;
+  color: #6a5acd;
+  border-radius: 8px;
+  cursor: pointer;
+}

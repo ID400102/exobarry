@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>TechStore - Panier</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">TechStore</div>
+  <nav>
+    <a href="#">Accueil</a>
+    <a href="#">Produits</a>
+    <a href="#">À Propos</a>
+    <a href="#">Contact</a>
+    <a href="#" class="active">Panier</a>
+  </nav>
+</header>
+
+<section class="banner">
+  <h1>Votre Panier</h1>
+  <p>Finalisez votre commande</p>
+</section>
+
+<main class="container">
+  <section class="articles">
+    <h2>Articles (3)</h2>
+
+    <div class="item active">
+      <img src="téléchargement.jfif" alt="">
+      <div class="info">
+        <h3>Laptop Pro 15"</h3>
+        <p>Processeur haute performance</p>
+      </div>
+      <div class="qty">
+        <button>-</button>
+        <span>1</span>
+        <button>+</button>
+      </div>
+      <div class="price">1299€</div>
+      <button class="delete">✕</button>
+    </div>
+
+    <div class="item">
+      <img src="téléchargement (1).jfif" alt=""> 
+      <div class="info">
+        <h3>Smartphone X</h3>
+        <p>Écran OLED 6.5"</p> 
+      </div>
+      <div class="qty">
+        <button>-</button>
+        <span>2</span>
+        <button>+</button>
+      </div>
+      <div class="price">1598€</div>
+      <button class="delete">✕</button>
+    </div>
+
+    <div class="item">
+      <img src="téléchargement (2).jfif" alt="">
+      <div class="info">
+        <h3>Casque Audio Pro</h3>
+        <p>Réduction de bruit active</p>
+      </div>
+      <div class="qty">
+        <button>-</button>
+        <span>1</span>
+        <button>+</button>
+      </div>
+      <div class="price">249€</div>
+      <button class="delete">✕</button>
+    </div>
+  </section>
+
+  <aside class="summary">
+    <h2>Résumé</h2>
+    <p><span>Sous-total</span><span>3146€</span></p>
+    <p><span>Livraison</span><span>Gratuite</span></p>
+    <p><span>TVA (20%)</span><span>629€</span></p>
+    <hr>
+    <p class="total"><span>Total</span><span>3775€</span></p>
+    <button class="order">Commander</button>
+    <button class="continue">Continuer mes achats</button>
+  </aside>
+</main>
+
+</body>
+</html>
