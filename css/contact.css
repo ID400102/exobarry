@@ -1,0 +1,150 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.contact-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Conteneur pour le formulaire et les coordonnées côte à côte */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* Formulaire à droite */
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    max-width: 450px;
+    margin-right: 20px;
+}
+
+.contact-form label {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: linear-gradient(90deg, #6c5ce7, #a29bfe);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Style du bouton */
+.contact-form button {
+    background: linear-gradient(90deg, #6c5ce7, #a29bfe);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: linear-gradient(90deg, #5a4bd1, #8e88d6);
+}
+
+/* Coordonnées à gauche */
+.contact-info {
+    flex: 1;
+    min-width: 280px;
+    max-width: 380px;
+    text-align: left;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Bloc de coordonnées aligné à droite */
+.contact-detail {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+.contact-detail:hover {
+    transform: translateX(10px); /* Légère translation au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre plus marquée */
+}
+
+.contact-detail i {
+    margin-left: 15px; /* Espace entre l'icône et le texte */
+    color: #6c5ce7;
+    font-size: 24px;
+}
+
+.contact-detail div {
+    flex: 1;
+    text-align: left; /* Aligner le texte à gauche à l'intérieur du bloc */
+}
+
+.contact-detail strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-detail p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Footer */
+.contact-footer {
+    margin-top: 40px;
+    padding: 15px 0;
+    text-align: center;
+    background: #030927;
+    color: #eee;
+    font-size: 14px;
+}
