@@ -1,0 +1,178 @@
+header{
+    background-color: rgb(27, 173, 149);
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+header,p{
+    font-size: 20px;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+img{
+    width: 50%;
+    height: 50%;
+    margin: 80px;
+    }
+div1{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+h2{
+    font-size: 36px;
+    color: #4ecdc4;
+}
+div2{
+    font-size: 18px;
+    line-height: 1.8;
+}
+div2{
+    align-content: center;
+
+.d1 {
+    border-radius: 40px;
+    box-shadow: 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 20%;
+    background-color: white;
+    height: 300px;
+}
+
+.d2 {
+    border-radius: 40px;
+    box-shadow: 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 20%;
+    background-color: white;
+    height: 300px;
+}
+
+.d3 {
+    border-radius: 40px;
+    box-shadow: 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 20%;
+    background-color: white;
+    height: 300px;
+}
+
+.d4 {
+    border-radius: 40px;
+    box-shadow: 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 22%;
+    background-color: white;
+    height: 300px;
+
+}
+
+.d {
+    display: inline-flex;
+    justify-content: center;
+    gap: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.d1:hover {
+    transform: translateY(30px);
+    transition: ease-in 2.3s;
+}
+
+.d2:hover {
+    transform: translateY(30px);
+    transition: ease-in 2.3s;
+}
+
+.d3:hover {
+    transform: translateY(30px);
+    transition: ease-in 2.3s;
+}
+
+.d4:hover {
+    transform: translateY(30px);
+    transition: ease-in 2.3s;
+}
+
+.icone1 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.icone2 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.icone3 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.icone4 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.titre1 {
+    font-size: 30px;
+    color: aqua;
+}
+
+.titre2 {
+    font-size: 30px;
+    color: aqua;
+}
+
+.titre3 {
+    font-size: 30px;
+    color: aqua;
+}
+
+.titre4 {
+    font-size: 30px;
+    color: aqua;
+}
+
+.texte1 {
+    margin-left: 30px;
+}
+
+.texte2 {
+    margin-left: 20px;
+}
+
+.texte3 {
+    margin-left: 30px;
+}
+
+.texte4 {
+    margin-left: 10px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.tete {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    height: 90px;
+    background-color: white;
+    text-align: center;
+}
